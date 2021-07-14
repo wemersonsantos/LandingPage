@@ -4,9 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/index.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <title>Dark Nerd</title>
 </head>
 <body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div>
+                    <img alt="fundo de quadrinhos">
+                    <h1>Dark Nerd</h1>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main role="main">
+        <section>
+            <img alt="thanos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <p>A Dark Nerd preparou aquela 'super' promoção com descontos especiais para o 'herói' mais poderosos do universo! VOCÊ!!!</p>
     
+                        <p>Venha!!! Aproveite as últimas promoções que estão sendo ofertadas nessa Black Friday!</p>
+    
+                        <p>Envie seu email e fique por dentro de tudo que está acontecendo</p>
+                    </div>
+                    <div class="col-6">
+                        <form>
+                            <div>
+                                <label for="InputEmail" class="labelEmail">Endereço de email</label>
+                                <input type="email" class="form-control" id="inoutEmail" aria-describedby="emailPromoção">
+                                <div id="emailPromoção" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém</div>
+                            </div>
+                            <button type="button" class="btn btn-danger">Inscreva-se</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-10 offset-1">
+
+                    <h5 id="contact">CONTATOS:</h5>
+
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="listContact p-md-1 me-md-2"><p class="textContact"><i class="fab fa-whatsapp"></i> Whatsapp</p></div>
+                        <div class="listContact p-md-1 me-md-2"><p class="textContact"><i class="far fa-envelope"></i> Email</p></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">  
+
+                <p id="msg">Projeto desenvolvido por Wêmerson Santos</p>
+
+            </div><!--END ROW-->
+
+        </div><!--END CONTAINER-->
+
+    </footer>
+
+        
+    </main>
+    
+
+
+
+
+    <script src="./js/main.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

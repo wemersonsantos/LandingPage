@@ -1,0 +1,3 @@
+//Pasta as serem ignoradas pelo Git
+
+node_modules
