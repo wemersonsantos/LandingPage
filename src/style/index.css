@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+#start{
+    background-color: #f7ca18;
+    height: 12px;
+}
+
+#logo{
+    height: 60px;
+}
+
+#nameLogo{
+    font-family: 'Ultra', serif;
+}
+
+#messageForUsers{
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+main .imagesSection{
+    height: 50px;
+}
+
+#contactFooter{
+    background-color: #0c2461;
+    color: #FFF;
+}
+
+footer p a{
+    cursor: pointer;
+    color: #FFF;
+    text-decoration: none;
+}
