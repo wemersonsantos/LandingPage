@@ -19,8 +19,12 @@
     text-align: center;
 }
 
-main .imagesSection{
-    height: 50px;
+main #shieldCap{
+    height: 400px;
+}
+
+main #babyYoda{
+    height: 200px;
 }
 
 #contactFooter{
