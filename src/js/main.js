@@ -28,6 +28,5 @@ function registerUsers(){
     inputSname.value = '';
     inputEmail.value = '';
     inputPhone.value = '';
-    formCheck.value = '';
   
 }
