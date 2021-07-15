@@ -11,6 +11,7 @@
 
 #nameLogo{
     font-family: 'Ultra', serif;
+    text-transform: uppercase;
 }
 
 #messageForUsers{
@@ -20,7 +21,7 @@
 }
 
 main #shieldCap{
-    height: 400px;
+    height: 350px;
 }
 
 main #babyYoda{

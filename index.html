@@ -15,10 +15,10 @@
         <div class="container-fluid">
             <div class="row">
                 <div id="logo" class="d-flex align-items-center justify-content-center">
-                    <h1 id="nameLogo">Dark Nerd</h1>
+                    <h1 id="nameLogo">Black Friday</h1>
                     <br>
-                </div>
-            </div>
+                </div><!--END DIV #logo-->
+            </div><!--END ROW-->
         </div>
     </header>
     <main role="main">
@@ -27,42 +27,54 @@
                 <div class="row">
                     <div id="messageForUsers" class="d-flex flex-column flex-sm-row">                  
                         <div class="d-flex justify-content-center">  
-                            <img src="./public/images/Captain_America_Shield.png" id="shieldCap" class="imagesSection" alt="Escudo do Capitão América">
-                            <div class="col-6">   
-                                <p class="message">A Dark Nerd preparou aquela 'super' promoção com descontos especiais para o 'herói' mais poderosos do universo! VOCÊ!!!</p>
-            
-                                <p class="message">Venha!!! Aproveite as últimas promoções que estão sendo ofertadas nessa Black Friday!</p>
-            
-                                <p class="message">Envie seu email e fique por dentro de tudo que está acontecendo.</p>
-                            </div>
-                        </div>
+                            <div class="col-6">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="./public/images/Captain_America_Shield.png" id="shieldCap" class="imagesSection rounded float-end" alt="Escudo do Capitão América">
+                                    </div><!--END COL-2-->
+                                    <div class="col-10">
+                                        <p class="message">A Dark Nerd preparou aquela 'super' promoção com descontos especiais para o 'herói' mais poderosos do universo! VOCÊ!!!</p>
+                                        <p class="message">Venha!!! Aproveite as últimas promoções que estão sendo ofertadas nessa Black Friday!</p>
+                                    </div><!--END COL-10-->
+                                </div><!--END ROW-->                  
+                            </div><!--END COL-6-->
+                        </div><!--END D-FLEX-->
                         <div class="d-flex justify-content-center">
                             <div class="col-6">
-                                <form id="formUsers">
-                                    <div class="form-group">
-                                        <label for="InputName" class="labelName">Nome</label>
-                                        <input type="text" class="form-control" id="inputName" aria-describedby="nomeCliente">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="InputSname" class="labelSname">Sobrenome</label>
-                                        <input type="text" class="form-control" id="inputSname" aria-describedby="sobreNomeCliente">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="InputEmail" class="labelEmail">Email</label>
-                                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailPromoção">
-                                        <div id="emailPromoção" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém</div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="InputPhone" class="labelPhone">WhatsApp (DDD)</label>
-                                        <input type="number" class="form-control" id="inputPhone" aria-describedby="WhatsAppCliente">
-                                    </div>
-    
-                                    <button onclick="registerUsers()" type="button" class="btn btn-danger">Inscreva-se</button>
-                                </form>   
-                            </div><!--END COL-6-->
-                            <img src="./public/images/Ddls3tj-7a2cc663-0c10-44a4-9994-0a99a8b9f7dd.png" id="babyYoda" class="imagesSection" alt="baby Yoda">
-                        </div>
-                    </div><!--END D-FLEX-->
+                                <div class="row">
+                                    <div class="col-10">
+                                        <h2>Receba as promoções</h2>
+                                        <form id="formUsers">
+                                            <div class="form-group">
+                                                <label for="InputName" class="labelName">Nome</label>
+                                                <input type="text" class="form-control" id="inputName" aria-describedby="nomeCliente">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="InputSname" class="labelSname">Sobrenome</label>
+                                                <input type="text" class="form-control" id="inputSname" aria-describedby="sobreNomeCliente">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="InputEmail" class="labelEmail">Email</label>
+                                                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailPromoção">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="InputPhone" class="labelPhone">WhatsApp (DDD)</label>
+                                                <input type="number" class="form-control" id="inputPhone" aria-describedby="WhatsAppCliente">
+                                            </div>
+                                            <div class="m-2">
+                                                <button onclick="registerUsers()" type="button" class="btn btn-danger">Inscreva-se</button>
+                                            </div>
+                                        </form>   
+                                    </div><!--END COL-10-->
+                                    <div class="col-2">
+                                        <div class="pt-4">
+                                            <img src="./public/images/Ddls3tj-7a2cc663-0c10-44a4-9994-0a99a8b9f7dd.png" id="babyYoda" class="imagesSection" alt="baby Yoda">
+                                        </div><!--END PADDING-->
+                                    </div><!--END COL-2-->
+                                </div><!--END ROW-->              
+                            </div><!--END COL-6-->              
+                        </div><!--END D-FLEX FORM-->
+                    </div><!--END D-FLEX #messageForUsers-->
                 </div><!--END ROW-->
             </div><!--END CONTAINER-->
         </section>
@@ -79,13 +91,13 @@
 
                             <div class="listContact p-md-1 me-md-2"><p class="textContact"><i class="fab fa-github-square"></i> GitHub:<a href="https://github.com/wemersonsantos"> Wemerson Santos</a></p></div>
 
-                            <div class="listContact p-md-1 me-md-2"><p class="textContact"><i class="fab fa-github-square"></i> LinkedIn:<a href="hwww.linkedin.com/in/wêmerson-santos-542934138"> Wêmerson Santos</a></p></div>
-                        </div>
-                </div>
+                            <div class="listContact p-md-1 me-md-2"><p class="textContact"><i class="fab fa-linkedin"></i> LinkedIn:<a href="hwww.linkedin.com/in/wêmerson-santos-542934138"> Wêmerson Santos</a></p></div>
+                        </div><!--END D-FLEX-->
+                </div><!--END COL-10-->
                 <div class="row">  
                     <p id="msg">Projeto desenvolvido por Wêmerson Santos</p>
                 </div><!--END ROW-->
-            </div>
+            </div><!--END DIV #contactFooter-->
         </div><!--END CONTAINER-->
     </footer>
 
