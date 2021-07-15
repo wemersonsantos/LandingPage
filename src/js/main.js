@@ -3,7 +3,6 @@ function registerUsers(){
     let inputSname = document.getElementById('inputSname');
     let inputEmail = document.getElementById('inputEmail');
     let inputPhone = document.getElementById('inputPhone');
-    let formCheck = document.getElementById('formCheck');
 
     let info = JSON.parse(localStorage.getItem('users'));
 
@@ -17,7 +16,6 @@ function registerUsers(){
         sname:inputSname.value, //Capturando valores
         email:inputEmail.value, //Capturando valores
         phone: inputPhone.value, //Capturando valores
-        check: formCheck.value //Capturando valores
     }
 
     info.push(infoRegister);//Adicionando valores no Array

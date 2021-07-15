@@ -7,6 +7,11 @@ body{
     height: 12px;
 }
 
+.start2{
+    height: 12px;
+    background-color: #96281b;
+}
+
 #logo{
     height: 60px;
 }
@@ -23,6 +28,10 @@ body{
     overflow-x: hidden;
 }
 
+#messageUsers{
+    margin-right: -100px;
+}
+
 main #shieldCap{
     height: 350px;
 }
@@ -30,12 +39,6 @@ main #shieldCap{
 main #babyYoda{
     height: 200px;
 }
-
-#contactFooter{
-    background-color: #0c2461;
-    color: #FFF;
-}
-
 
 #itens .productBlack{
     max-height: 172px; 
@@ -50,6 +53,20 @@ main #babyYoda{
     position: absolute;
     top: 1px;
     right: 1px;
+}
+
+footer .textContact{
+    margin-bottom: 0;
+}
+
+#contactFooter{
+    background-color: #0c2461;
+    color: #FFF;
+}
+
+#msg{
+    font-size: 9pt;
+    text-align: center;
 }
 
 footer p a{
