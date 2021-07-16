@@ -3,6 +3,11 @@
 body{
     overflow-x: hidden;
 }
+
+main #messageForUsers #description-babyyoda, #description-shieldCap{
+    display: none;
+}
+
 #start{
     background-color: #f7ca18;
     height: 12px;
@@ -15,7 +20,7 @@ body{
 
 #logo{
     height: 60px;
-    text-shadow: 2px 2px #FFF;
+    text-shadow: 3px 3px #FFF;
     background-image: url('../../public/images/wallDC.jpg');
 }
 

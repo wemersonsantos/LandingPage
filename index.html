@@ -11,7 +11,7 @@
     <title>Dark Nerd</title>
 </head>
 <body>
-    <header>
+    <header role="banner">
         <div id="start" class="container-fluid"></div>
             <div class="container-fluid">
                 <div class="row">
@@ -26,12 +26,13 @@
         <section>
             <div class="container-fluid">
                 <div class="row">
-                    <div id="messageForUsers" class="d-flex flex-column flex-md-row">                  
+                    <div id="messageForUsers" class="d-flex flex-column flex-lg-row">                  
                         <div id="messageUsers" class="d-flex justify-content-center">  
                             <div class="col-6">
                                 <div class="row">
                                     <div class="col-2">
-                                        <img src="./public/images/Captain_America_Shield.png" id="shieldCap" class="imagesSection rounded float-end" alt="Escudo do Capitão América">
+                                        <img src="./public/images/Captain_America_Shield.png" id="shieldCap" class="imagesSection rounded float-end" title="Escudo do Capitão América" alt="Escudo do Capitão América" aria-labelledby="description-shieldCap">
+                                        <p id="description-shieldCap">Escudo indestrutivo utilizado por Steve Rogers, o capitão América. Inspirado na bandeira americana, tem localizado ao seu ceentro uma estrala e três circulos concêntricos de cores vermelho, branco e vermelho, respectivamente. </p>
                                     </div><!--END COL-2-->
                                     <div class="col-10 mt-5">
                                         <h2 id="Empresa">DARK NERD</h2>
@@ -65,13 +66,14 @@
                                                 <input type="number" class="form-control" id="inputPhone" aria-describedby="WhatsAppCliente">
                                             </div>
                                             <div class="m-2">
-                                                <button onclick="registerUsers()" type="button" class="btn btn-danger">Inscreva-se</button>
+                                                <button role="button" aria-label="Cadastre-se e receba as promoções feitas pela Dark Nerd nesta Black Friday" onclick="registerUsers()" type="button" class="btn btn-danger">Inscreva-se</button>
                                             </div>
                                         </form>   
                                     </div><!--END COL-10-->
                                     <div class="col-2">
                                         <div class="pt-4 mt-5">
-                                            <img src="./public/images/Ddls3tj-7a2cc663-0c10-44a4-9994-0a99a8b9f7dd.png" id="babyYoda" class="imagesSection float-start" alt="baby Yoda">
+                                            <img src="./public/images/Ddls3tj-7a2cc663-0c10-44a4-9994-0a99a8b9f7dd.png" id="babyYoda" class="imagesSection float-start" title="Baby Yoda" alt="Baby Yoda" aria-labelledby="description-babyyoda">
+                                            <p id="description-babyyoda">Ele é um membro pequeno de uma espécie alienígenas da série O Mandaloriano, inspirada em Star Wars</p>
                                         </div><!--END PADDING-->
                                     </div><!--END COL-2-->
                                 </div><!--END ROW-->              
@@ -112,7 +114,7 @@
                 </li>
             </ul>
         </section>
-        <footer>
+        <footer role="contentinfo">
             <div class="container-fluid">
                 <div id="contactFooter" class="row">
                     <div class="col-10 offset-1 pt-2 ms-2">
@@ -122,7 +124,7 @@
     
                                 <div class="listContact p-md-1 mb-1 me-md-2"><p class="textContact"><i class="fas fa-envelope-square"></i> Email: wemersonadalbertoeng@gmail.com</p></div>
     
-                                <div class="listContact p-md-1 mb-1 me-md-2"><p class="textContact"><i class="fab fa-github-square"></i> GitHub:<a href="https://github.com/wemersonsantos"> Wemerson Santos</a></p></div>
+                                <div class="listContact p-md-1 mb-1 me-md-2"><p class="textContact"><i class="fab fa-github-square"></i> GitHub:<a href="https://github.com/wemersonsantos"> wemersonsantos</a></p></div>
     
                                 <div class="listContact p-md-1 mb-1 me-md-2"><p class="textContact"><i class="fab fa-linkedin"></i> LinkedIn:<a href="www.linkedin.com/in/wêmerson-santos-542934138"> Wêmerson Santos</a></p></div>
                             </div><!--END D-FLEX-->
