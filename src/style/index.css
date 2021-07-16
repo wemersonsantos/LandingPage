@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
+main #messageForUsers #description-babyyoda, #description-shieldCap{
+    display: none;
+}
+
+#start{
+    background-color: #f7ca18;
+    height: 12px;
+}
+
+.start2{
+    height: 12px;
+    background-color: #96281b;
+}
+
+#logo{
+    height: 60px;
+    text-shadow: 3px 3px #FFF;
+    background-image: url('../../public/images/wallDC.jpg');
+}
+
+#nameLogo{
+    font-family: 'Ultra', serif;
+    text-transform: uppercase;
+}
+
+#messageForUsers{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+#messageUsers{
+    margin-right: -100px;
+}
+
+main #shieldCap{
+    height: 350px;
+}
+
+main #babyYoda{
+    height: 200px;
+}
+
+#itens .productBlack{
+    max-height: 172px; 
+}
+
+#itens .productSell{
+    position: relative;
+}
+
+#itens .promoPORC{
+    max-height: 45px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+
+footer .textContact{
+    margin-bottom: 0;
+}
+
+#contactFooter{
+    background-color: #0c2461;
+    color: #FFF;
+}
+
+#msg{
+    font-size: 9pt;
+    text-align: center;
+}
+
+footer p a{
+    cursor: pointer;
+    color: #FFF;
+    text-decoration: none;
+}

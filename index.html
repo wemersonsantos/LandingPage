@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style/index.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="shortcut icon" href="./public/images/favicon.ico">
+    <title>Dark Nerd</title>
+</head>
+<body>
+    <header role="banner">
+        <div id="start" class="container-fluid"></div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="logo" class="d-flex align-items-center justify-content-center">
+                        <h1 id="nameLogo">Black Friday</h1>
+                    </div><!--END DIV #logo-->
+                </div><!--END ROW-->
+            </div>
+        <div class="container-fluid start2"></div>
+    </header>
+    <main role="main">
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="messageForUsers" class="d-flex flex-column flex-lg-row">                  
+                        <div id="messageUsers" class="d-flex justify-content-center">  
+                            <div class="col-6">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="./public/images/Captain_America_Shield.png" id="shieldCap" class="imagesSection rounded float-end" title="Escudo do Capitão América" alt="Escudo do Capitão América" aria-labelledby="description-shieldCap">
+                                        <p id="description-shieldCap">Escudo indestrutivo utilizado por Steve Rogers, o capitão América. Inspirado na bandeira americana, tem localizado ao seu ceentro uma estrala e três circulos concêntricos de cores vermelho, branco e vermelho, respectivamente. </p>
+                                    </div><!--END COL-2-->
+                                    <div class="col-10 mt-5">
+                                        <h2 id="Empresa">DARK NERD</h2>
+                                        <p class="message">A Dark Nerd preparou aquela <b>Super</b> promoção com descontos especiais para o <b>herói</b> mais poderosos do universo! <b>VOCÊ!!!</b></p>
+                                        <p class="message">Venha!!! Aproveite as últimas promoções que estão sendo ofertadas nessa <b>Black Friday!</b></p>
+                                        <p class="message">Cadastre seu email e receba as nossas últimas ofertas.</p>
+                                    </div><!--END COL-10-->
+                                </div><!--END ROW-->                  
+                            </div><!--END COL-6-->
+                        </div><!--END D-FLEX-->
+                        <div class="d-flex justify-content-start">
+                            <div class="col-6">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <h2>Cadastrar</h2>
+                                        <form id="formUsers">
+                                            <div class="form-group">
+                                                <label for="InputName" class="labelName">Nome</label>
+                                                <input type="text" class="form-control" id="inputName" aria-describedby="nomeCliente">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="InputSname" class="labelSname">Sobrenome</label>
+                                                <input type="text" class="form-control" id="inputSname" aria-describedby="sobreNomeCliente">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="InputEmail" class="labelEmail">Email</label>
+                                                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailPromoção">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="InputPhone" class="labelPhone">WhatsApp (DDD)</label>
+                                                <input type="number" class="form-control" id="inputPhone" aria-describedby="WhatsAppCliente">
+                                            </div>
+                                            <div class="m-2">
+                                                <button role="button" aria-label="Cadastre-se e receba as promoções feitas pela Dark Nerd nesta Black Friday" onclick="registerUsers()" type="button" class="btn btn-danger">Inscreva-se</button>
+                                            </div>
+                                        </form>   
+                                    </div><!--END COL-10-->
+                                    <div class="col-2">
+                                        <div class="pt-4 mt-5">
+                                            <img src="./public/images/Ddls3tj-7a2cc663-0c10-44a4-9994-0a99a8b9f7dd.png" id="babyYoda" class="imagesSection float-start" title="Baby Yoda" alt="Baby Yoda" aria-labelledby="description-babyyoda">
+                                            <p id="description-babyyoda">Ele é um membro pequeno de uma espécie alienígenas da série O Mandaloriano, inspirada em Star Wars</p>
+                                        </div><!--END PADDING-->
+                                    </div><!--END COL-2-->
+                                </div><!--END ROW-->              
+                            </div><!--END COL-6-->              
+                        </div><!--END D-FLEX FORM-->
+                    </div><!--END D-FLEX #messageForUsers-->
+                </div><!--END ROW-->
+            </div><!--END CONTAINER-->
+        </section>
+    </main>
+    <div class="container-fluid start2"></div>
+   <div class="d-flex flex-column flex-md-row-reverse align-items-center">
+        <section id="itens">
+            <ul id="Sell" class="list-group d-flex flex-column flex-sm-row">
+                <li class="list-group-item prItens">
+                    <figure id="shazam" class="figure productSell d-flex justify-content-center">
+                        <img src="./public/images/277-2773962_shazam-funko-pop-hd-png-download.png" class="img-thumbnail productBlack" alt="Shazam">
+                        <figcaption class="figure-caption"><img class="promoPORC" src="./public/images/download.png"></figcaption>
+                    </figure>
+                </li>
+                <li class="list-group-item">
+                    <figure id="manopla" class="figure productSell d-flex justify-content-center">
+                        <img src="./public/images/marvel-legends-guante-de-thanos-infinity-war-hasbro-D_NQ_NP_792685-MCO27186914521_042018-F.jpg" class="img-thumbnail productBlack" alt="Manopla do Infinito">
+                        <figcaption class="figure-caption"><img class="promoPORC" src="./public/images/CSGVT3qUkAAPrhz.png"></figcaption>
+                    </figure>
+                </li>
+                <li class="list-group-item">
+                    <figure id="manopla" class="figure productSell d-flex justify-content-center">
+                        <img src="./public/images/534-5343044_action-figure-homem-aranha-deluxe-action-figure-spider.png" class="img-thumbnail productBlack" alt="Homem aranha">
+                        <figcaption class="figure-caption"><img class="promoPORC" src="./public/images/CSGVT3qUkAAPrhz.png"></figcaption>
+                    </figure>
+                </li>
+                <li class="list-group-item">
+                    <figure id="manopla" class="figure productSell d-flex justify-content-center">
+                        <img src="./public/images/hqs-marvel-julho-2013.png" class="img-thumbnail productBlack" alt="HQ's">
+                        <figcaption class="figure-caption"><img class="promoPORC" src="./public/images/CSGVT3qUkAAPrhz.png"></figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+        <footer role="contentinfo">
+            <div class="container-fluid">
+                <div id="contactFooter" class="row">
+                    <div class="col-10 offset-1 pt-2 ms-2">
+                        <h5 id="contact">Contatos:</h5>
+                            <div class="d-flex flex-column">
+                                <div class="listContact p-md-1 mb-1 me-md-2"><p class="textContact"><i class="fab fa-whatsapp-square"></i> Whatsapp: (81) 9 9806-8977</p></div>
+    
+                                <div class="listContact p-md-1 mb-1 me-md-2"><p class="textContact"><i class="fas fa-envelope-square"></i> Email: wemersonadalbertoeng@gmail.com</p></div>
+    
+                                <div class="listContact p-md-1 mb-1 me-md-2"><p class="textContact"><i class="fab fa-github-square"></i> GitHub:<a href="https://github.com/wemersonsantos"> wemersonsantos</a></p></div>
+    
+                                <div class="listContact p-md-1 mb-1 me-md-2"><p class="textContact"><i class="fab fa-linkedin"></i> LinkedIn:<a href="www.linkedin.com/in/wêmerson-santos-542934138"> Wêmerson Santos</a></p></div>
+                            </div><!--END D-FLEX-->
+                    </div><!--END COL-10-->
+                    <div class="row">  
+                        <p id="msg">Projeto desenvolvido por Wêmerson Santos</p>
+                    </div><!--END ROW-->
+                </div><!--END DIV #contactFooter-->
+            </div><!--END CONTAINER-->
+        </footer>
+   </div>
+
+    <script src="./src/js/main.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
