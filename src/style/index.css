@@ -20,8 +20,8 @@ main #messageForUsers #description-babyyoda, #description-shieldCap{
 
 #logo{
     height: 60px;
-    text-shadow: 3px 3px #FFF;
-    background-image: url('../../public/images/wallDC.jpg');
+    text-shadow: 2px 2px #FFF;
+    background-image: url('../../public/images/HQs.jpg');
 }
 
 #nameLogo{
